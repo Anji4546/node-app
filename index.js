@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 //Respond with "hello world" for requests that hit our root "/"
 app.get('/', function (req, res) {
- res.send('Piedistrict Private Limited is a Start-up Technology Development Centre for projects in Middle East, Europe and United States.');
+ res.send('Piedistrict Private Limited urope and United States.');
 });
 //listen to port 3000 by default
 var port = process.env.PORT || 3000
